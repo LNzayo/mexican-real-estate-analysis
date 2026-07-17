@@ -1,0 +1,28 @@
+mexican-real-estate-analysis/
+│
+├── README.md                 # Project overview and documentation
+├── PROJECT_SUMMARY.md        # Detailed analysis summary
+├── requirements.txt          # Python package dependencies
+├── .gitignore               # Files to ignore in version control
+│
+├── notebooks/
+│   └── analysis.ipynb        # Complete analysis notebook
+│
+├── data/
+│   └── mexico-real-estate-combined-clean.csv  # Dataset
+│
+├── results/
+│   ├── figures/              # All generated plots
+│   │   ├── correlation_matrix.png
+│   │   ├── state_boxplot.png
+│   │   ├── property_type_boxplot.png
+│   │   └── price_distribution.png
+│   └── reports/              # Analysis reports
+│       └── analysis_summary.html
+│
+├── src/
+│   ├── data_loader.py        # Data loading functions
+│   ├── analysis.py           # Analysis functions
+│   └── visualization.py      # Plotting functions
+│
+└── LICENSE                   # MIT License
